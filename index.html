@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>오설록</title>
+
+  <!-- meta태그 : 검색과 관련된 -->
+  <meta name="keywords" content="오설록, 녹차, 티선물">
+  <meta name="description" content="차와 제주가 선사하는 가치있는 쉼, 오설록">
+
+  <!-- 오픈그래프 -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="오설록">
+  <meta property="og:url" content="https://www.osulloc.com">
+  <meta property="og:image" content="images/common/og_img.jpg">
+  <meta property="og:description" content="차와 제주가 선사하는 가치있는 쉼, 오설록">
+
+  <link rel="shortcut icon" href="images/common/osulloc_favi.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="css/font.css">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/main.js"></script>
+
+</head>
+
+<body>
+
+  <div id="wrap">
+    <header id="header">
+
+      <div class="inner">
+        <h1><a href="index.html"><img src="images/common/logo_w.png" alt="오설록"></a></h1>
+
+        <nav>
+          <ul class="gnb">
+            <li>
+              <a href="sub/brand.html">브랜드</a>
+              <ul class="depth2">
+                <li><a href="sub/brand1.html">오설록 스토리</a></li>
+                <li><a href="sub/brand2.html">제주 티뮤지엄</a></li>
+                <li><a href="sub/brand3.html">다다일상</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="sub/prd.html">제품</a>
+              <ul class="depth2">
+                <li><a href="sub/prd1.html">티제품</a></li>
+                <li><a href="sub/prd2.html">티푸드</a></li>
+                <li><a href="sub/prd3.html">티웨어</a></li>
+                <li><a href="sub/prd3.html">선물추천</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="sub/store.html">매장안내</a>
+              <ul class="depth2">
+                <li><a href="sub/store1.html">티뮤지엄</a></li>
+                <li><a href="sub/store2.html">티하우스</a></li>
+                <li><a href="sub/store3.html">티샵</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="sub/cs.html">고객센터</a>
+              <ul class="depth2">
+                <li><a href="sub/cs1.html">공지사항</a></li>
+                <li><a href="sub/cs2.html">이벤트</a></li>
+                <li><a href="sub/cs3.html">멤버십</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <div class="mgnb_wrap">
+            <div class="mgnb_inner">
+              <ul class="mgnb">
+                <li>
+                  <a href="sub/brand.html">브랜드</a>
+                  <ul class="mdepth2">
+                    <li><a href="sub/brand1.html">오설록 스토리</a></li>
+                    <li><a href="sub/brand2.html">제주 티뮤지엄</a></li>
+                    <li><a href="sub/brand3.html">다다일상</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="sub/prd.html">제품</a>
+                  <ul class="mdepth2">
+                    <li><a href="sub/prd1.html">티제품</a></li>
+                    <li><a href="sub/prd2.html">티푸드</a></li>
+                    <li><a href="sub/prd3.html">티웨어</a></li>
+                    <li><a href="sub/prd3.html">선물추천</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="sub/store.html">매장안내</a>
+                  <ul class="mdepth2">
+                    <li><a href="sub/store1.html">티뮤지엄</a></li>
+                    <li><a href="sub/store2.html">티하우스</a></li>
+                    <li><a href="sub/store3.html">티샵</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="sub/cs.html">고객센터</a>
+                  <ul class="mdepth2">
+                    <li><a href="sub/cs1.html">공지사항</a></li>
+                    <li><a href="sub/cs2.html">이벤트</a></li>
+                    <li><a href="sub/cs3.html">멤버십</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!-- .mgnb_inner -->
+            <button class="mgnb_close">메뉴닫기</button>
+          </div><!-- .mgnb_wrap -->
+        </nav>
+
+        <div class="util">
+          <button class="btn_search">검색열기</button>
+          <button class="btn_ham">메뉴열기</button>
+          <a href="sub/cart.html" class="cart">장바구니</a>
+        </div><!-- .util -->
+      </div><!-- .inner -->
+
+      <div class="depth2_bg"></div>
+    </header>
+
+    <div class="search">
+      <form action="#">
+        <fieldset>
+          <legend>검색영역</legend>
+          <div class="input_box">
+            <input type="text" placeholder="검색어를 입력해 주세요!">
+            <input type="submit" value="검색">
+          </div><!-- .input_box -->
+        </fieldset>
+      </form>
+    </div><!-- .search -->
+
+    <main id="main">
+
+      <section class="banner">
+        <div class="swiper banner_list">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide banner1">
+              <div class="banner_txt">
+                <p>추석 리미티드 에디션까지 만나보세요!</p>
+                <h3>따뜻한 마음을 전하는<br>
+                  추석선물 특가</h3>
+                <div class="btn_more"><a href="sub/event.html">이벤트 자세히보기</a></div>
+              </div><!-- .banner_txt -->
+            </li><!-- 슬라이드 종료 -->
+            <li class="swiper-slide banner2">
+              <div class="banner_txt">
+                <p>지금 다다일상을 경험해 보세요!</p>
+                <h3>VIP 등급혜택<br>
+                  다다일상 체험권 증정</h3>
+                <div class="btn_more"><a href="sub/event.html">이벤트 자세히보기</a></div>
+              </div><!-- .banner_txt -->
+            </li><!-- 슬라이드 종료 -->
+          </ul>
+          <div class="control">
+            <div class="swiper-button-prev"></div>
+            <button class="pause">슬라이드 일시정지</button>
+            <button class="play">슬라이드 재생</button>
+            <div class="swiper-button-next"></div>
+          </div><!-- .control -->
+        </div><!-- .swiper -->
+      </section>
+
+      <div class="notice">
+        <div class="inner">
+          <div class="swiper notice_list">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                <a href="sub/notice.html">[공지] 오설록 차 제품 고시 정보 변경 안내<span>2024.11.12</span></a>
+              </li>
+              <li class="swiper-slide">
+                <a href="sub/notice.html">[공지] 멤버십 쿠폰 제도 변경 안내<span>2024.12.27</span></a>
+              </li>
+            </ul>
+          </div><!-- .swiper -->
+        </div><!-- .inner -->
+      </div><!-- .notice -->
+
+      <section data-aos="zoom-in" class="prd m200">
+        <h2>Weekly Best</h2>
+        <p>오늘은 어떤 차를 마셔볼까요?</p>
+        <div class="swiper prd_list">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <a href="sub/prd.html"><img src="images/main/prd_01.jpg" alt="제품사진"></a>
+              <dl>
+                <dt>티 에디션 아일랜드 18입</dt>
+                <dd>36,000원</dd>
+              </dl>
+            </li>
+            <li class="swiper-slide">
+              <a href="sub/prd.html"><img src="images/main/prd_02.jpg" alt="제품사진"></a>
+              <dl>
+                <dt>달빛걷기 10입</dt>
+                <dd>15,000원</dd>
+              </dl>
+            </li>
+            <li class="swiper-slide">
+              <a href="sub/prd.html"><img src="images/main/prd_03.jpg" alt="제품사진"></a>
+              <dl>
+                <dt>녹차 밀크 스프레드 세트</dt>
+                <dd>20,000원</dd>
+              </dl>
+            </li>
+            <li class="swiper-slide">
+              <a href="sub/prd.html"><img src="images/main/prd_04.jpg" alt="제품사진"></a>
+              <dl>
+                <dt>동백이 피는 곶자왈 10입</dt>
+                <dd>15,000원</dd>
+              </dl>
+            </li>
+            <li class="swiper-slide">
+              <a href="sub/prd.html"><img src="images/main/prd_05.jpg" alt="제품사진"></a>
+              <dl>
+                <dt>러블리 티박스 12입</dt>
+                <dd>21,000원</dd>
+              </dl>
+            </li>
+            <li class="swiper-slide">
+              <a href="sub/prd.html"><img src="images/main/prd_06.jpg" alt="제품사진"></a>
+              <dl>
+                <dt>콤부차 피치동백 & 제주영귤</dt>
+                <dd>16,000원</dd>
+              </dl>
+            </li>
+            <li class="swiper-slide">
+              <a href="sub/prd.html"><img src="images/main/prd_07.jpg" alt="제품사진"></a>
+              <dl>
+                <dt>말차 프레첼</dt>
+                <dd>6,000원</dd>
+              </dl>
+            </li>
+            <li class="swiper-slide">
+              <a href="sub/prd.html"><img src="images/main/prd_08.jpg" alt="제품사진"></a>
+              <dl>
+                <dt>제주 그린티 클렌징 바</dt>
+                <dd>12,000원</dd>
+              </dl>
+            </li>
+            <li class="swiper-slide">
+              <a href="sub/prd.html"><img src="images/main/prd_09.jpg" alt="제품사진"></a>
+              <dl>
+                <dt>디퓨저 티 가든</dt>
+                <dd>25,000원</dd>
+              </dl>
+            </li>
+            <li class="swiper-slide">
+              <a href="sub/prd.html"><img src="images/main/prd_10.jpg" alt="제품사진"></a>
+              <dl>
+                <dt>노을섬 아이스 티</dt>
+                <dd>13,000원</dd>
+              </dl>
+            </li>
+          </ul>
+          <div class="swiper-scrollbar"></div>
+        </div><!-- .swiper -->
+        <div class="btn_more"><a href="sub/prd.html">인기상품 더보기</a></div>
+      </section>
+
+      <section class="teaware">
+        <div class="inner">
+          <div data-aos="fade-right" class="teaware_txt">
+            <h2>Tea ware</h2>
+            <p>오설록의 차를 즐길 수 있는<br>
+              다양한 티웨어 브랜드를 만나보세요.</p>
+          </div><!-- .teaware_txt -->
+          <div data-aos="fade-left" class="teaware_list">
+            <div class="tab_btn">
+              <button class="active">김별희</button>
+              <button>킨토</button>
+              <button>탁가온</button>
+              <button>인소일</button>
+            </div><!-- .tab_btn -->
+            <div class="tab_img">
+              <a href="#"><img src="images/main/teaware_01.jpg" alt="김별희 브랜드"></a>
+              <a href="#"><img src="images/main/teaware_02.jpg" alt="킨토 브랜드"></a>
+              <a href="#"><img src="images/main/teaware_03.jpg" alt="탁가온 브랜드"></a>
+              <a href="#"><img src="images/main/teaware_04.jpg" alt="인소일 브랜드"></a>
+            </div><!-- .tab_img -->
+          </div><!-- .teaware_list -->
+        </div><!-- .inner -->
+      </section>
+
+      <section class="story m200">
+        <div class="inner">
+          <div data-aos="fade-right" class="story_left">
+            <img src="images/main/story_main.jpg" alt="오설록 티클래스 사진">
+          </div><!-- .story_left -->
+          <div data-aos="fade-left" data-aos-delay="1000" class="story_right">
+            <h2>Osulloc Story</h2>
+            <p>Beautiful Devotion to Revive Tea Culture, Osulloc</p>
+            <div class="rotate_img"></div>
+            <ul>
+              <li>
+                <a href="#"><img src="images/main/tealog_img.jpg" alt="다다일상 체험 사진"></a>
+                <dl>
+                  <dt>다다일상</dt>
+                  <dd>다채로운 차 향기로 더욱 풍요로워지는 티 라이프</dd>
+                </dl>
+              </li>
+              <li>
+                <a href="#"><img src="images/main/story_img.png" alt="오설록 브랜드 소개 사진"></a>
+                <dl>
+                  <dt>오설록 스토리</dt>
+                  <dd>차 문화 부흥을 향한 아름다운 집념</dd>
+                </dl>
+              </li>
+            </ul>
+          </div><!-- .story_right -->
+        </div><!-- .inner -->
+      </section>
+
+    </main>
+
+    <footer id="footer">
+      <div class="inner">
+        <div>
+          <ul class="footer_link">
+            <li><a href="sub.html">개인정보처리방침</a></li>
+            <li><a href="sub.html">서비스이용약관</a></li>
+            <li><a href="sub.html">이메일무단수집거부</a></li>
+            <li><a href="sub.html">영상기기관리방침</a></li>
+          </ul>
+          <p class="footer_txt">
+            서울특별시 용산구 한강대로 100, 14층(한강로2가)<br>
+            대표이사 : 서혁제<br>
+            사업자등록번호 : 390-87-01499<br>
+            통신판매업신고번호 : 2019-서울용산-1173호
+          </p>
+        </div>
+
+        <div>
+          <p class="tel">
+            고객상담센터 · 주문/배송문의<br>
+            <span>080-805-5555</span>
+          </p>
+          <p class="copy">Copyright © 2021 OSULLOC. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+  </div><!-- #wrap -->
+
+</body>
+
+</html>
